@@ -1,2 +1,10 @@
 # pulse-ndjson-45
-45-minute NDJSON pulse: each run appends one JSON line with UTC/local time, ISO week/day, and checksum. Stdlib-only, no external APIs.
+
+**Every 45 minutes** this repo appends a single NDJSON line with:
+- UTC timestamp & UNIX time
+- Kyiv / New York localized timestamps
+- ISO week, weekday, hour/minute, day-of-year
+- short checksum & nonce
+
+Output per day: `data/YYYY-MM-DD/events.ndjson`  
+Stdlib-only (no external APIs). Powered by GitHub Actions cron (`*/45 * * * *`).
