@@ -1,1 +1,2 @@
 {"ts_utc": "2026-01-29T00:53:37+00:00", "unix": 1769648017, "iso_week": 5, "weekday": 4, "minute": 53, "hour": 0, "day_of_year": 29, "kyiv": "2026-01-29T02:53:37+02:00", "new_york": "2026-01-28T19:53:37-05:00", "nonce": "3022e7f60f", "format": "ndjson-pulse-v1", "checksum": "064d4c2c5c68"}
+{"ts_utc": "2026-01-29T03:15:59+00:00", "unix": 1769656559, "iso_week": 5, "weekday": 4, "minute": 15, "hour": 3, "day_of_year": 29, "kyiv": "2026-01-29T05:15:59+02:00", "new_york": "2026-01-28T22:15:59-05:00", "nonce": "0f841ad335", "format": "ndjson-pulse-v1", "checksum": "ad04ed1a886b"}
